@@ -1,5 +1,5 @@
 # Liftin-with-C
-This showcase various modern lift/elevator configurations    
+This project showcases various modern lift/elevator configurations    
 
 This repository is currently under work in progress ...     
 
