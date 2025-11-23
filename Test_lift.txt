@@ -1,0 +1,17 @@
+The documentation of Test_lift.c is displayed here : 
+
+This is a terminal based elevator simulation with the following features : 
+
+1. Up / Down hall calls 
+2. Cabin (inside lift) calls
+3. Automatic direction logic
+4. Stops at the correct floors 
+
+So, what does this simulation show ? 
+
+1. Multi-floor logic (0–9 floors)
+2. Up/down request handling
+3. Direction logic
+4. Door opening at correct floors
+5. Idle behavior
+6. Can be extended to multiple lifts or embedded logic
