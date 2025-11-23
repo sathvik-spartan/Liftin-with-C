@@ -1,0 +1,34 @@
+Initialize:
+    currentFloor = 0
+    direction = UP or DOWN
+    upRequests[floors] = {0}
+    downRequests[floors] = {0}
+    carRequests[floors] = {0}
+
+Loop forever:
+    checkForNewRequests()
+
+    if direction == UP:
+        if anyRequestsAbove():
+            moveUpOneFloor()
+            if upRequests[currentFloor] = 1 OR carRequests[currentFloor] = 1:
+                stopAndOpenDoor()
+                clearRequestsAtCurrentFloor()
+        else:
+            direction = DOWN
+
+    else if direction == DOWN:
+        if anyRequestsBelow():
+            moveDownOneFloor()
+            if downRequests[currentFloor] = 1 OR carRequests[currentFloor] = 1:
+                stopAndOpenDoor()
+                clearRequestsAtCurrentFloor()
+        else:
+            direction = UP
+
+    if noPendingRequests():
+        goIdle()
+
+
+----------------------------------------------------------------
+This is a pseudocode for the lift logic design and follows modern elevator logic.   
