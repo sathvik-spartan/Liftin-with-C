@@ -7,3 +7,6 @@ This simple project showcases various modern lift/elevator configurations
 
 
 Contributions are most welcome and valued.    
+## Further Updates 
+1. Will add GUI using python for more graphical advantage
+2. Implement logic for user defined total floors (Skyscraper logic)
