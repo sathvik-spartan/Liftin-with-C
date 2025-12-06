@@ -41,23 +41,26 @@ void moveLift() {
     if (direction == 1) { // UP
         if (anyRequestsAbove()) {
             currentFloor++;
-            printf("Lift moving UP to floor %d\n", currentFloor);
-            if (upRequests[currentFloor] || carRequests[currentFloor])
-                openDoors();
-        } else {
+        } else if (anyRequestsBelow()) {
             direction = -1;
+            return; // Next cycle will move down
         }
     } else { // DOWN
         if (anyRequestsBelow()) {
             currentFloor--;
-            printf("Lift moving DOWN to floor %d\n", currentFloor);
-            if (downRequests[currentFloor] || carRequests[currentFloor])
-                openDoors();
-        } else {
+        } else if (anyRequestsAbove()) {
             direction = 1;
+            return;
         }
     }
+
+    printf("Lift at floor %d\n", currentFloor);
+
+    if (upRequests[currentFloor] || downRequests[currentFloor] || carRequests[currentFloor]) {
+        openDoors();
+    }
 }
+
 
 void printMenu() {
     printf("\n--- Elevator Simulation ---\n");
