@@ -30,5 +30,6 @@ Loop forever:
         goIdle()
 
 
-----------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
 This is a pseudocode for the lift logic design and follows modern elevator logic.   
