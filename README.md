@@ -8,7 +8,7 @@ This simple project showcases various modern lift/elevator configurations
 - Main.c is the main file (optimization imminent)
 
 
-Contributions are most welcome and obviously valued.    
+Contributions are most welcome and valued.    
 
 ## Recommended by the community 
 1. Will hopefully add GUI for more graphical advantage.
