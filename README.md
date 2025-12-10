@@ -5,7 +5,7 @@ This simple project showcases various modern lift/elevator configurations
 - I wrote this code while in traffic but i somehow managed to optimise it further (yeah, i'm kinda insane).
 - Update : I've optimised the hope and i'm hoping for a code review
 - I really wish these were the commit messages but anyways here you go... Enjoy the simulation, folks!
-- Main.c is the main file (optimization imminent)
+- Main.c is where the main logic of the code lies (optimization imminent)
 
 
 Contributions are most welcome and valued.    
