@@ -3,7 +3,7 @@ This simple project showcases various modern lift/elevator configurations
 
 - When Bangalore traffic hits hard, your ever evolving curiosity and thought process suddenly start working at full capacity and all you can think of is how a lift / an elevator works.
 - I wrote this code while i was stuck in traffic but i gladly managed to optimise it further.
-- Update : I've optimised the hope and i'm hoping for a code review
+- Update : I've optimised the source code and i'm hoping for a code review
 - I really wish these were the commit messages but anyways here you go... Enjoy the simulation, folks!
 - Main.c is where the main logic of the code lies (optimization imminent)
 
